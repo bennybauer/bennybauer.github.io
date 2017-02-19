@@ -3,6 +3,7 @@ title = "Benny Bauer"
 baseurl = "https://bennybauer.github.io/"
 theme = "aerial"
 googleAnalytics = "UA-92205873-1"
+favicon = "favicon.ico"
 
 [params]
   name = "Benny Bauer"
