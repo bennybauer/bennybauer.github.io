@@ -1,0 +1,42 @@
+languageCode = "en-us"
+title = "Benny Bauer"
+baseurl = "https://bennybauer.github.io/"
+theme = "aerial"
+googleAnalytics = "UA-92205873-1"
+
+[params]
+  name = "Benny Bauer"
+  about = "Cloud Expert &nbsp;&bull;&nbsp; Serverless Evangelist"
+  copyright = "BennyBauer"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+
+[[params.social]]
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/bennybauer/"
+
+[[params.social]]
+  medium = "Slideshare"
+  icon = "slideshare"
+  link = "https://www.slideshare.net/bennybauer1"
+
+[[params.social]]
+  medium = "Medium"
+  icon = "medium"
+  link = "https://medium.com/@benikbauer"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/benikbauer"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/bennybauer"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "mailto:bennybauer@gmail.com"
