@@ -22,12 +22,8 @@ git push origin --delete master
 
 msg "Creating an empty, orphaned \`master\` branch"
 git checkout --orphan master
-git rm --cached $(git ls-files)
-
-msg "Grabbing one file from the \`$SOURCE\` branch so that a commit can be made"
-git checkout "$SOURCE" README.md
-git add .
-git commit -m "Initial commit on master branch"
+git reset --hard
+git commit --allow-empty -m "Initializing master branch"
 git push origin master
 
 msg "Returning to the \`$SOURCE\` branch"
