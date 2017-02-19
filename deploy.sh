@@ -26,15 +26,24 @@ msg() {
     printf "\033[1;32m :: %s\n\033[0m" "$1"
 }
 
+msg "Deleting old publication"
+rm -rf public
+mkdir public
+git worktree prune
+rm -rf .git/worktrees/public/
+
+msg "Checking out \`master\` branch into public"
+git worktree add public master
+
+echo "Removing existing files"
 rm -rf public/*
 
 msg "Building the website"
 hugo
 
 msg "Pushing the updated \`public\` folder to the \`master\` branch"
-hugo
 cd public
 git add .
 git commit -m "$MESSAGE"
-cd ..
 git push origin master
+cd ..
