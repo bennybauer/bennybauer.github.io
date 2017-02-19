@@ -26,9 +26,7 @@ msg() {
     printf "\033[1;32m :: %s\n\033[0m" "$1"
 }
 
-msg "Pulling down the \`master\` branch into \`public\` to help avoid merge conflicts"
 rm -rf public/*
-git worktree add public master
 
 msg "Building the website"
 hugo
