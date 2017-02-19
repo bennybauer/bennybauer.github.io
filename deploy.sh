@@ -12,7 +12,7 @@ export LC_TIME=en_US.UTF-8
 # GitHub username.
 USERNAME=bennybauer
 # Name of the branch containing the Hugo source files.
-SOURCE=source
+SOURCE=hugo
 # The commit message.
 MESSAGE="Site rebuild $(date)"
 
