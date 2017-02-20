@@ -7,7 +7,7 @@ googleAnalytics = "UA-92205873-1"
 [params]
   name = "Benny Bauer"
   about = "Cloud Expert &nbsp;&bull;&nbsp; Serverless Evangelist"
-  copyright = "BennyBauer"
+  copyright = "2017, Benny Bauer"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
@@ -18,9 +18,20 @@ googleAnalytics = "UA-92205873-1"
   link = "https://www.linkedin.com/in/bennybauer/"
 
 [[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/bennybauer"
+
+
+[[params.social]]
   medium = "Slideshare"
   icon = "slideshare"
   link = "https://www.slideshare.net/bennybauer1"
+
+[[params.social]]
+  medium = "Youtube"
+  icon = "youtube-play"
+  link = "https://www.youtube.com/playlist?list=PLoPozIuXIZp7PERmO3CqVDUgYUMhUk5ml"
 
 [[params.social]]
   medium = "Medium"
@@ -31,11 +42,6 @@ googleAnalytics = "UA-92205873-1"
   medium = "Twitter"
   icon = "twitter"
   link = "https://twitter.com/benikbauer"
-
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://github.com/bennybauer"
 
 [[params.social]]
   medium = "Email"
