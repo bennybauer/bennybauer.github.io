@@ -7,7 +7,7 @@ googleAnalytics = "UA-92205873-1"
 [params]
   name = "Benny Bauer"
   about = "Cloud Expert &nbsp;&bull;&nbsp; Serverless Evangelist"
-  copyright = "2017, Benny Bauer"
+  copyright = "2018, Benny Bauer"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
