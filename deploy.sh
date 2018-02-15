@@ -40,10 +40,10 @@ rm -rf public/*
 
 msg "Building the website"
 hugo
-touch .nojekyll
 
 msg "Pushing the updated \`public\` folder to the \`master\` branch"
 cd public
+touch .nojekyll
 git add .
 git commit -m "$MESSAGE"
 git push origin master
